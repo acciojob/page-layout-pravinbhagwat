@@ -8,12 +8,13 @@ import Footer from "./Footer";
 const App = () => {
   let x = "Welcome to my website"
   let y = "This is the content of my website."
-  let z = "©️ 2023 M y Website. All rights reserved."
+  let z = "©️ 2023 My Website. All rights reserved."
   return (
-    <div>
+    <div id="root">
          <Header header={x}/>
           <Content content={y}/>
           <Footer footer={z}/>
+          © 2023 My Website. All rights reserved.
     </div>
   )
 }
